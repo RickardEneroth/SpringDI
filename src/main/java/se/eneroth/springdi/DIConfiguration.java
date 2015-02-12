@@ -13,6 +13,9 @@ public class DIConfiguration {
 
     @Bean
     public MessageService getMessageService(){
+
+        //TODO kan tex togglas via property fil
+
         //return new EmailService();
         return new TwitterService();
     }
