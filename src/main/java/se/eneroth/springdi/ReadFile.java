@@ -10,7 +10,7 @@ import java.nio.file.Paths;
  */
 public class ReadFile {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws IOException {
         System.out.println(readFile("resources/file.txt"));
     }
 
